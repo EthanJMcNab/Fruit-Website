@@ -24,3 +24,37 @@ header {
     display: inline-block;
     padding: 0px 20px;
 }
+
+.container{
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    padding: 30px 10%;
+}
+
+.innerContainer{
+    width: 50%;
+}
+
+.banner_title{
+    font-size: 30px;
+    font-weight: extra-bold;
+    color: #E5E7EB;
+}
+
+.banner_text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn{
+    font-weight: bold;
+    background: #3882F6;
+    color: #E5E7EB;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top:10px;
+}
