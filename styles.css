@@ -2,7 +2,6 @@
     box-sizing:border-box;
     margin: 0;
     padding: 0;
-    background-color: #1F2937;
 }
 
 header {
@@ -11,7 +10,8 @@ header {
     align-items: center;
     padding: 30px 10%;
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 20px;
+    background-color: #1F2937;
 }
 
 .nav_links{
@@ -26,10 +26,12 @@ header {
 }
 
 .container{
+    background-color: #1F2937;
+    gap: 50px;
     display: flex;
     height: 300px;
     justify-content: space-evenly;
-    padding: 30px 10%;
+    padding: 20px 10%;
 }
 
 .innerContainer{
@@ -45,16 +47,74 @@ header {
 .banner_text{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 20px;
 }
 
 .btn{
     font-weight: bold;
     background: #3882F6;
     color: #E5E7EB;
-    width: 160px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
-    margin-top:10px;
+}
+
+#randomInformation{
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#randomInformationTitle{
+    color: #1F2937;
+}
+
+#photos{
+    background-color: white;
+    padding: 0px 0%;
+}
+
+#quoteContainer{
+    background-color: #E5E7EB;
+    flex-direction: column;
+    height:250px;
+}
+
+#quoteText{
+    font-size: 25px;
+}
+
+#quoteAuthor{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#callToAction{
+    background-color: white;
+    height: 200px;
+    flex-direction: column;
+}
+
+#ctaContainer{
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 100px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#specialButton{
+    border: 2px solid white;
+}
+
+.footerContainer{
+    background-color: #1F2937;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
